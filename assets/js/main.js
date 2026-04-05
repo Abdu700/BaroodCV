@@ -180,12 +180,8 @@
 		});
 
 		$(".tp-offcanvas-open-btn").on("click", function () {
-			$(".tp-offcanvas-2-area, .body-overlay").addClass("opened");
-		});
-
-		$(".tp-offcanvas-open-btn").on("click", function () {
-			const hasOffcanvas2 = $(".tp-offcanvas-2-area").length;
-			$(".body-overlay").toggleClass("opened", !hasOffcanvas2);
+			$(".tp-offcanvas-2-area").addClass("opened");
+			$(".body-overlay").addClass("opened apply");
 		});
 
 		$(".cartmini-open-btn").on("click", function () {
@@ -200,7 +196,7 @@
 
 		$(".cartmini-close-btn, .body-overlay, .tp-offcanvas-2-close-btn").on("click", function () {
 			$(".tp-search-area, .cartmini__area, .tp-offcanvas-2-area").removeClass("opened cartmini-opened");
-			$(".body-overlay").removeClass("opened");
+			$(".body-overlay").removeClass("opened apply");
 		});
 	};
 

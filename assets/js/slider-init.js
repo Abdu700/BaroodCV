@@ -179,7 +179,7 @@
 	});
 
 	initSwiper(".tp-service-cst-slider", {
-		slidesPerView: 6,
+		slidesPerView: 1,
 		loop: true,
 		autoplay: false,
 		grabCursor: true,
@@ -189,20 +189,14 @@
 			prevEl: ".tp-service-cst-button-prev"
 		},
 		breakpoints: {
-			1200: {
-				slidesPerView: 3
-			},
-			992: {
-				slidesPerView: 2
-			},
-			768: {
-				slidesPerView: 1
-			},
 			576: {
 				slidesPerView: 1
 			},
-			0: {
-				slidesPerView: 1
+			768: {
+				slidesPerView: 2
+			},
+			1200: {
+				slidesPerView: 3
 			}
 		},
 		a11y: false
