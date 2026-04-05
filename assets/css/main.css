@@ -580,6 +580,11 @@ max-width: 1510px;
 max-width: 1430px;
 }
 }
+@media (min-width: 1400px){
+.container-1350{
+max-width: 1350px;
+}
+}
 .fw-500{
 font-weight: 500;
 }
