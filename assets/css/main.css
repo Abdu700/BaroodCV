@@ -5016,7 +5016,7 @@ min-height: 700px;
   position: relative;
 }
 html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
-  width: 780px;
+  width: auto;
   max-width: none;
   height: 975px;
   padding-right: 100px;
@@ -5287,12 +5287,119 @@ html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb{
 position: relative;
   z-index: 10;
 }
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 1199px){
 html[dir=rtl] body.home-page-rtl .ar-brand-area{
-margin-top: -30px;
+margin-top: 0;
 }
 html[dir=rtl] body.home-page-rtl .cnt-hero-list-wrap{
-margin-top: 0 !important;
+top: 0 !important;
+    margin-top: 30px !important;
+}
+}
+@media only screen and (min-width: 1400px){
+html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
+height: 975px;
+    padding-right: 100px;
+    transform: translateY(-100px);
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px){
+html[dir=rtl] body.home-page-rtl .cnt-hero-title{
+font-size: 58px;
+    margin-bottom: 28px;
+}
+html[dir=rtl] body.home-page-rtl .home-hero-summary{
+max-width: 100%;
+    margin-bottom: 28px;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-area .row{
+row-gap: 20px;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
+height: 700px;
+    max-width: 100%;
+    padding-right: 40px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+html[dir=rtl] body.home-page-rtl .cnt-hero-ptb{
+padding-top: 150px;
+    padding-bottom: 60px;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-title{
+font-size: 52px;
+    margin-bottom: 24px;
+}
+html[dir=rtl] body.home-page-rtl .home-hero-summary{
+max-width: 100%;
+    margin-bottom: 24px;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-area .row{
+row-gap: 18px;
+}
+html[dir=rtl] body.home-page-rtl .home-hero-media-col{
+text-align: center;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb{
+min-height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
+height: 520px;
+    max-width: 100%;
+    padding-right: 0;
+    transform: translateY(-60px);
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-list-wrap{
+top: 0 !important;
+    margin-top: 30px !important;
+}
+}
+@media only screen and (max-width: 767px){
+html[dir=rtl] body.home-page-rtl .cnt-hero-ptb{
+padding-top: 120px;
+    padding-bottom: 40px;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-title{
+font-size: 44px;
+    line-height: 1.15;
+}
+html[dir=rtl] body.home-page-rtl .home-hero-summary{
+max-width: 100%;
+    margin-bottom: 24px;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-area .row{
+row-gap: 12px;
+}
+html[dir=rtl] body.home-page-rtl .home-hero-media-col{
+text-align: center;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb{
+min-height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
+height: auto;
+    max-width: 85%;
+    padding-right: 0;
+    transform: none;
+    margin-inline: auto;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-list-wrap{
+top: 0 !important;
+    margin-top: 30px !important;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-list-num{
+width: auto;
+    font-size: 28px;
+    margin-right: 18px;
+}
+html[dir=rtl] body.home-page-rtl .cnt-hero-list-name{
+font-size: 14px;
 }
 }
 html[dir=rtl] .tp-offcanvas-2-right-info-box{
