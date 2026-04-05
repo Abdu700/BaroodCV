@@ -5019,6 +5019,7 @@ html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
   width: 780px;
   max-width: none;
   height: 975px;
+  padding-right: 100px;
   object-fit: contain;
   object-position: center bottom;
   border-radius: 0;
@@ -5027,7 +5028,6 @@ html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
   margin-inline: auto;
   margin-top: 0;
   transform: translateY(-100px);
-
   filter: drop-shadow(0 28px 44px rgba(16, 48, 42, 0.18));
 }
 html[dir=rtl] body.home-page-rtl .ar-about-title-wrap{
