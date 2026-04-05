@@ -5016,9 +5016,9 @@ min-height: 700px;
   position: relative;
 }
 html[dir=rtl] body.home-page-rtl .cnt-hero-main-thumb img.home-hero-person{
-width: 780px;
+  width: 780px;
   max-width: none;
-  height: auto;
+  height: 975px;
   object-fit: contain;
   object-position: center bottom;
   border-radius: 0;
